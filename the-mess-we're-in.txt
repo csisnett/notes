@@ -1,0 +1,58 @@
+
+The Mess We're in by Joe Armstrong
+
+https://www.youtube.com/watch?v=lKXe3HUG2l4
+
+The problem: Computers today (2014) are perhaps 1000's of times better/faster than personal computers in their beginnings. But this increase in performance, better memory, etc hasn't really materialized as programs complexity have increased at the same or maybe even larger rate..
+
+In the beginning: programmers would be able to have see exactly how their program would execute on the machine as they were close to the machine and this smallness also allowed them to hold the program in mind
+
+Thesis: something went wrong in programming, as no matter how better the hardware got, the software kept performing at a similar rate
+
+State of the world now: Because of this increasing complexity in programming, now we can't know exactly why programs don't work, we can't just "look at it" we've got layers over layers of stuff, and each program and the computer that runs it has so many possible states which makes it even harder to know what the cause is.
+
+
+7 deadly sins:
+
+1. Code even you cannot understand after you wrote it - no comments
+2. Code with no specifications
+3. Code that is shipped as soon as it runs and before it is beautiful
+4. Code with added features
+5. Code that is very very fast very very very obscure and incorrect
+6. Code that is not beautiful
+7. Code that you wrote without understanding the problem
+
+
+What is legacy code(described jokingly):
+
+- programmers who wrote the code are dead
+- No specification
+- Written in archaic languages which nobody understands
+- "it works"
+- Management thinks modifying legacy code is cheaper than a total re-write
+
+How complex are current programs?
+
+"So a C program with 6 32-bit integers can have more states than the number of atoms on the planet"
+
+This means it's utterly impossible to test a program by trying all states and see if any of these work, and even more for real programs that deal with a LOT more data. fun fact: 3 variables in javascript have more states than the total of all atoms in the planet
+
+So: program + environment_01332(OS) => works
+but also: program + environment_01331(OS) => doesn't work
+
+This is the reason why when we stackoverflow things that work for other people don't work for us! because our computers have different states. and running the same program in different states produces different results, how many different states can my computer have? well, I take a look at the math: https://youtu.be/lKXe3HUG2l4?t=906 :S
+
+*At this point I'm wondering how anything works*
+
+Continue notes on: https://youtu.be/lKXe3HUG2l4?t=993
+
+
+Reasons for this problem:
+
+- complex abstractions
+-
+
+highlights: 
+
+https://youtu.be/lKXe3HUG2l4?t=494
+
