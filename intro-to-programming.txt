@@ -1,0 +1,91 @@
+
+Intro to programming (python)
+
+A value is something like: "hola", 2, etc. An actual instance of a type.
+
+A variable is a " name that refers to a value", so basically how we
+call values, in our programs
+
+Operators are "special symbols that represent computation", + - for instance.
+
+~What is an expression?
+
+An expression is a combination of values, variables and operators:
+
+things like:
+
+17
+x
+x + 17
+
+are expressions.~
+
+~What is a statement?
+
+is a unit of code that the python interpreter can execute.~
+
+~What is the difference between an expression an a statement?
+
+An expression has value, while a statement doesn't.~
+
+Comments are notes inside your programs written in a natural language
+
+use them to explain why the code does something instead of what it does.
+as what it does can be implied from the code itself.
+
+~ What is a function?
+
+A function is a named sequence of statements that performs a computation~
+
+~What is function composition?
+
+When we use the returned expression of a function as the input of another ones that's
+called function composition.
+
+Flow of execution
+
+Functions can change the flow of execution as they might call any other function.
+
+~What is the difference between parameters and arguments?
+
+Arguments are the values we pass into functions, while parameters are the variables
+those values are referred as, inside the function.~
+
+Variables and parameters are local:
+
+they only exist in the context in which they were defined
+
+Stack diagrams
+
+Stacks serve us to keep track of the contexts our program is running inside of,
+
+The __main__ stack is the first one and is from there that all functions and global variables
+are created from. As well as the other stacks that each represent the context inside a function.
+
+Each stack represents a different context.
+
+When receiving a traceback we can see the file and the line where we had a problem in
+the execution.
+
+Fruitful and void functions
+
+The author calls fruitful functions that return values, while void are the ones that perform
+operations but don't return anything
+
+~Why use functions?
+- we can ame a group of statements
+- avoid repeating code, later when editing you just have to do it once
+- dividing a long program into functions allow you to debug the parts one at a time and
+then assemble them into a working hole
+- Well-designed functions are useful for many programs. Once written you can reuse it
+in other programs.~
+
+~ How to import in python?
+
+to import a module: import <module name>
+to import an object inside a module: from <module name> import <object name>~
+
+
+
+
+

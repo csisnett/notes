@@ -44,13 +44,81 @@ This is the reason why when we stackoverflow things that work for other people d
 
 *At this point I'm wondering how anything works*
 
+To handle failures we need at least two computers, if we have just one computer and our programs fails, it's dead.
+
+The more computers we have in a distributed systems the lower the odds that they all fail at the same time.
+
+"systems should self-heal, reconfigure and evolve over time"
+
+
+We don't have common programming languages to speak with other programmers, "no lingua franca" no common build tool either
+
+Efficiency and clarity
+
+dichotomy:
+
+To make something clearer add a layer of abstraction
+To make something more efficient remove a layer of abstraction
+
+Causality
+
+a cause must always precede its event in order to have causality
+
+some facts from physics:
+
+information travels at less or at the speed of light
+We do not know an event happened until we get a message saying the event happened
+We do not know how things are at a remote location only how they were the last time we got a message from that location
+
+Simultanuity https://youtu.be/lKXe3HUG2l4?t=1526
+
+                     A                 B
+A happened first   A and B happened at the same time     B happened first
 Continue notes on: https://youtu.be/lKXe3HUG2l4?t=993
 
+Speed of computation
 
-Reasons for this problem:
+By taking physics physics known limits we can calculate sort of the maximum speed of computation
 
-- complex abstractions
--
+This computation would be executed by the "ultimate laptop"
+
+1 kg blackhole computer could do:
+
+10^51 operations/per second
+
+As things can't easily scape a blackhole the way to get information from this computer
+would be to have two equal particles one goes in and other doesn't, and when the
+state of the particle in the blackhole changes through quantum entanglement the
+one on the outside changes its state and that one we can track its speed or whatever
+property to know what the result of that computation was.
+
+http://arxiv.org/abs/quant-ph/9908043
+
+What can we do?
+
+The problem with current programs is that they increase entropy.
+A condenser could reduce the number of files, because many files are essentialy the same.
+
+One way to condense is by abolishing names and places, take a string of something crypto:sha1
+and you basically reduced it.
+
+URIs are bad but.. 
+
+hash://5849293sdgsf90saf9sa94904af
+
+address cannot be spoofed (there is no address)
+no problem choosing a name
+can be cached forever
+content can be validated on arrival
+not subject to person-in-the-middle attacks
+you can check the sum of the original file to make sure it wasn't tampered with in the trajectory.
+
+Chord, Kademlia algorithms can help you with knowing on which machine that is
+
+With this idea of hashing we could know like what files are similar in the whole world,
+and start condensing them so that we don't have this unnecessary complexity
+
+Also with a compression algorithm we could know if two files are similar.
 
 highlights: 
 

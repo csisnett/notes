@@ -1,0 +1,13 @@
+
+histogram is good for large amount of data
+
+rule of thumb: use them when you have more than 100 data points
+
+how to calculate standard deviation
+
+The median is generally a better measure of the center when there are extreme values as it's not affected on the numerical values of these outliers.
+
+variable <- dataset$variable
+sd(variable)
+
+
