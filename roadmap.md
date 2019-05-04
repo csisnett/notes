@@ -1,6 +1,5 @@
 # Roadmap to get a position as a backend engineer (elixir based)
-Prerequisites(to know the basics of programming):
-Took an introduction to computer science and programming: 
+Prerequisite: to know the basics of programming
 
 # Knowledge building
 - [] [How to Code: Simple Data](https://www.edx.org/course/how-code-simple-data-ubcx-htc1x)
