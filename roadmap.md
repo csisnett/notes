@@ -12,7 +12,7 @@ Prerequisite: to know the basics of programming
 # Programming practice
 - [] [Do freecodecamp microservices with Phoenix framework](https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects)
 -  [] [Practice SQL](https://pgexercises.com/)
-- [] Solve How to Code exercises using elixir
+- [] Solve How to Code exercises with Racket & elixir when possible
 - [] Develop a CRUD app
 - [] Develop a project on top of Phoenix Channels
 - [] Develop a project that uses GraphQL
